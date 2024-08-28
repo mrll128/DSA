@@ -9,14 +9,6 @@ void ktao() {
         X[i] = 0;
     }
 }
-
-bool check() {
-    for(int i = 1; i <= n; i++) {
-        if(X[i] == 0) return false;
-    }
-    return true;
-}
-
 void sinh() {
     // Bắt đầu từ bit cuối cùng => đi tìm bit 0 đầu tiên
     // Trong quá trình gặp bit 1 => 0
